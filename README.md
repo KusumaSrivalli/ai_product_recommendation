@@ -38,16 +38,14 @@ Your go-to AI-powered e-commerce assistant! Searchly is a cutting-edge product r
 
 ```
 📁 Searchly
-├── 📁 client (Frontend)
-│   ├── 📁 public
-│   ├── 📁 src
-│   │   ├── 📁 components
-│   │   ├── 📁 data
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   └── Tailwind CSS config files
+├── 📁 src(frontend)
+│   ├── 📁 components
+│   ├── 📁 data
+│   |── App.js
+│   │── index.js
+│   │── Tailwind CSS config files
 │   └── package.json
-├── 📁 server (Backend)
+├── 📁 public (Backend)
 │   ├── app.py
 │   ├── scrape_web.py
 │   ├── 📁 .env (Configuration variables)
